@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Federal Spending</title>
+    <style>
+      .chart div {
+      background-color : lightsteelblue;
+      margin-bottom : 0.5rem;
+      text-align : right;
+      height : 2rem;
+      width : 0px;
+      }
+      .chart{
+      height : 20rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Federal Spending, then and now</h1>
+    <div class="chart">
+      Social Security, Unemployment, and Labor<div></div>
+      Medicare and Health<div></div>
+      National Defense<div></div>
+      Net Interest<div></div>
+      Other<div></div>
+    </div>
+    <input type="radio" name="year" value="2016" id="2016"> 2016 Spending <br>
+    <input type="radio" name="year" value="1996" id="1996"> 1996 Spending <br>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
